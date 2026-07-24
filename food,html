@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bite & Glow | Fresh Food Delivery</title>
+    <meta name="description" content="A modern food website featuring delicious dishes, fast home delivery, and vivid animated visuals." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="#" class="brand">Bite & Glow</a>
+        <nav class="site-nav">
+          <a href="#menu">Menu</a>
+          <a href="#delivery">Delivery</a>
+          <a href="#about">About</a>
+        </nav>
+        <button class="bag-btn" type="button">Cart <span id="bagCount">0</span></button>
+      </header>
+
+      <main>
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">Fast • Fresh • Fire-kissed</p>
+            <h1>Enjoy bold flavors delivered right to your door.</h1>
+            <p class="hero-text">
+              Crave burgers, sizzling wraps, creamy pasta, and sweet desserts? We bring handcrafted favorites to life with vibrant ingredients and lightning-fast delivery.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-dark" href="#menu">Order now</a>
+              <a class="btn btn-light" href="#delivery">See delivery</a>
+            </div>
+            <ul class="hero-highlights">
+              <li>24 min average delivery</li>
+              <li>Live order tracking</li>
+              <li>Freshly made daily</li>
+            </ul>
+          </div>
+
+          <div class="hero-media">
+            <div class="hero-card">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Stylish plated meal" />
+              <div class="hero-badge">
+                <strong>4.9 / 5</strong>
+                <span>Most loved tonight</span>
+              </div>
+            </div>
+            <div class="floating-chip chip-one">🔥 Hot deals</div>
+            <div class="floating-chip chip-two">⚡ Free delivery</div>
+          </div>
+        </section>
+
+        <section class="feature-strip reveal">
+          <div>
+            <strong>100% Fresh</strong>
+            <p>Handpicked ingredients every day</p>
+          </div>
+          <div>
+            <strong>Contactless</strong>
+            <p>Safe and seamless doorstep drop-off</p>
+          </div>
+          <div>
+            <strong>Chef Specials</strong>
+            <p>New dishes updated every week</p>
+          </div>
+        </section>
+
+        <section id="menu" class="section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Signature dishes</p>
+            <h2>Choose your next favorite bite</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80" alt="Crispy burger" />
+              <div class="product-info">
+                <h3>Smoky BBQ Burger</h3>
+                <p>Double beef patties, smoky sauce, and crunchy slaw.</p>
+                <div class="product-footer">
+                  <span class="price">$12.90</span>
+                  <button class="add-btn" type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80" alt="Pasta dish" />
+              <div class="product-info">
+                <h3>Truffle Pasta</h3>
+                <p>Silky noodles with garlic cream, herbs, and parmesan.</p>
+                <div class="product-footer">
+                  <span class="price">$14.50</span>
+                  <button class="add-btn" type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Loaded tacos" />
+              <div class="product-info">
+                <h3>Spicy Street Tacos</h3>
+                <p>Three tacos layered with salsa, guac, and roasted peppers.</p>
+                <div class="product-footer">
+                  <span class="price">$10.20</span>
+                  <button class="add-btn" type="button">Add</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>a
+
+        <section id="delivery" class="delivery-section reveal">
+          <div class="delivery-card">
+            <div class="delivery-copy">
+              <p class="eyebrow">Home delivery</p>
+              <h2>Your meal arrives hot, fresh, and on time.</h2>
+              <p>
+                Track every step of your order in real time, enjoy contactless delivery, and receive warm meals packed with care.
+              </p>
+              <div class="delivery-stats">
+                <div>
+                  <strong>25 min</strong>
+                  <span>Average arrival</span>
+                </div>
+                <div>
+                  <strong>24/7</strong>
+                  <span>Kitchen open</span>
+                </div>
+                <div>
+                  <strong>Free</strong>
+                  <span>On orders over $20</span>
+                </div>
+              </div>
+            </div>
+            <div class="delivery-visual" aria-hidden="true">
+              <div class="delivery-bike"></div>
+              <div class="delivery-box"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="story-section reveal">
+          <div class="story-copy">
+            <p class="eyebrow">Why guests love us</p>
+            <h2>Made for hungry people who love comfort and style.</h2>
+            <p>
+              We pair premium ingredients with a bold, modern experience so every order feels like a celebration.
+            </p>
+          </div>
+          <div class="story-panel">
+            <div>
+              <strong>1.2k+</strong>
+              <span>Happy weekly orders</span>
+            </div>
+            <div>
+              <strong>18</strong>
+              <span>Neighborhood delivery zones</span>
+            </div>
+            <div>
+              <strong>98%</strong>
+              <span>Repeat customer rate</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="newsletter reveal">
+          <h2>Get tasty offers in your inbox</h2>
+          <p>Join our flavor list for weekly specials and surprise discounts.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <p>© <span id="year"></span> Bite & Glow. Fresh food, delivered with flair.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
